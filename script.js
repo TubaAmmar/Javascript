@@ -32,4 +32,7 @@ function hide2me(){
     document.getElementById('para1').style.display='none';
 }
 
+document.write('the text is wriiten');
 
+
+alert('hey guys i am web developer');

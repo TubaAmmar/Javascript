@@ -34,5 +34,17 @@ function hide2me(){
 
 document.write('the text is wriiten');
 
+function getdate(){
+    document.getElementById('getdate').innerHTML= Date();
+}
+
+document.getElementById('para2').innerHTML= '<span style = "color:red; background-color:blue;">Hi</span>';
+
+
+document.getElementById('danger').onclick = function (){
+    document.write('told you not to click me');
+}
+
+
 
 alert('hey guys i am web developer');
